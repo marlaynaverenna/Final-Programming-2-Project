@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70C57A32460853A00E7C367 /* VoteResultingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C57A22460853A00E7C367 /* VoteResultingViewController.swift */; };
 		A76EAA4D245F59060040F2E3 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EAA4C245F59060040F2E3 /* VotingViewController.swift */; };
 		A7B566AC245F428100C0A598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B566AB245F428100C0A598 /* AppDelegate.swift */; };
 		A7B566AE245F428100C0A598 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B566AD245F428100C0A598 /* SceneDelegate.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A70C57A22460853A00E7C367 /* VoteResultingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteResultingViewController.swift; sourceTree = "<group>"; };
 		A76EAA4C245F59060040F2E3 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
 		A7B566A8245F428100C0A598 /* Final Programming 2 Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Programming 2 Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B566AB245F428100C0A598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				A7B566AD245F428100C0A598 /* SceneDelegate.swift */,
 				A7B566AF245F428100C0A598 /* ViewController.swift */,
 				A7B566B1245F428100C0A598 /* Main.storyboard */,
+				A70C57A22460853A00E7C367 /* VoteResultingViewController.swift */,
 				A76EAA4C245F59060040F2E3 /* VotingViewController.swift */,
 				A7B566E4245F4C2A00C0A598 /* TabBarController.swift */,
 				A7B566DD245F475100C0A598 /* PageOneViewController.swift */,
@@ -289,6 +292,7 @@
 				A7B566AC245F428100C0A598 /* AppDelegate.swift in Sources */,
 				A7B566E5245F4C2A00C0A598 /* TabBarController.swift in Sources */,
 				A7B566AE245F428100C0A598 /* SceneDelegate.swift in Sources */,
+				A70C57A32460853A00E7C367 /* VoteResultingViewController.swift in Sources */,
 				A76EAA4D245F59060040F2E3 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

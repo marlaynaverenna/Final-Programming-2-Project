@@ -215,7 +215,7 @@
         <!--Item-->
         <scene sceneID="5wr-P4-Grm">
             <objects>
-                <viewController id="rr7-IH-zKY" customClass="ViewController" customModule="Final_Programming_2_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rr7-IH-zKY" customClass="VoteResultingViewController" customModule="Final_Programming_2_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4HX-i8-3rV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,16 +322,17 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="4.square.fill" catalog="system" selectedImage="4.square" id="qDV-Yn-bmT"/>
                     <connections>
-                        <outlet property="downVoteCounter" destination="Yci-Bs-7Pi" id="IaQ-l7-bQa"/>
-                        <outlet property="imageView" destination="AY9-Ym-MIN" id="Ogb-Hp-GDC"/>
+                        <outlet property="downVoteCounter" destination="Yci-Bs-7Pi" id="9Dd-ps-OFr"/>
+                        <outlet property="imageView" destination="AY9-Ym-MIN" id="CDR-LH-uLh"/>
                         <outlet property="upVoteCounte" destination="5RX-BI-70O" id="tFi-aF-4vb"/>
-                        <outlet property="winner" destination="k76-zI-hLL" id="0lf-hp-lI0"/>
+                        <outlet property="upVoteCounter" destination="5RX-BI-70O" id="TqA-5W-VRI"/>
+                        <outlet property="winner" destination="k76-zI-hLL" id="5fe-yy-eYH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUv-ol-XCE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <pinchGestureRecognizer id="AFV-Sm-uJB">
                     <connections>
-                        <action selector="pinch:" destination="rr7-IH-zKY" id="wc4-86-WyO"/>
+                        <action selector="pinch:" destination="rr7-IH-zKY" id="Tj6-Dp-lD7"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <rotationGestureRecognizer id="Hdj-EM-UXC">
